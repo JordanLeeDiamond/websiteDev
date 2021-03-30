@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    background-color:black;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.205), rgba(255, 255, 255, 0.5)),
+    url('../images/IndexBackground.jpg');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+#header{
+    height: 285px;
+}
+
+h1{
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    margin: 50px 10px;
+}
+
+#navContainer{
+    /* border: solid hotpink 4px; */
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    padding-top: 200x;
+}
+
+#navBar{
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+#container{
+    /* border: solid hotpink 4px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nissanSkyline{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 10px;
+}
+
+img{
+    width: 750px;
+}
